@@ -1,10 +1,9 @@
-# M5Hat-JoyC
+# M5Hat-JoyC_BLE
 
 ## Overview
 
-### SKU:U079
-
-Contains the driver of the M5Stack JoyC joystick, which can obtain the offset value, coordinates of the joystick, and the color of the LED light on the control board.
+### 
+This is a code forked from M5Hat-JoyC to enable BLE transmission to a Robot
 
 ## Related Link
 
