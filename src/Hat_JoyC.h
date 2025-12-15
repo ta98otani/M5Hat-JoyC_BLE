@@ -16,7 +16,7 @@ class JoyC {
     void readBytes(uint8_t addr, uint8_t reg, uint8_t *buffer, uint8_t length);
 
    public:
-    bool begin(TwoWire *wire = &Wire, uint8_t sda = 0, uint8_t scl = 26,
+    bool begin(TwoWire *wire = &Wire1, uint8_t sda = 0, uint8_t scl = 26,
                uint8_t addr = JOYC_ADDRESS);
     uint8_t getX(uint8_t pos);
     uint8_t getY(uint8_t pos);

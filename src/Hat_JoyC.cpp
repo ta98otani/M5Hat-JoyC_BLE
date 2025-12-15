@@ -7,8 +7,9 @@ bool JoyC::begin(TwoWire *wire, uint8_t sda, uint8_t scl, uint8_t addr) {
     _addr = addr;
     _sda  = sda;
     _scl  = scl;
-    _wire->setPins(_sda, _scl);
-    _wire->begin();
+    // _wire->setPins(_sda, _scl);
+    _wire->begin(_sda, _scl, 1000000UL);
+    
     _wire->beginTransmission(_addr);
     uint8_t error = _wire->endTransmission();
     if (error == 0) {
