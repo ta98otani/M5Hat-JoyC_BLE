@@ -14,17 +14,20 @@ Intention is to send data to a M5Stack based robot via BLE. (Bluetooth Low Energ
 - https://jp.mathworks.com/matlabcentral/fileexchange/40312-simulink-support-package-for-arduino-hardware
 - (It is best to use Add-on manager of MATLAB to install the addons)
 
-## Procedure
+## Getting Started
 1. Open M5HatJoyC_BLE24b.xls
 2. Change hardware settings (COM Ports appropriately)
-3. Build and Run
+  <img width="1294" height="743" alt="image" src="https://github.com/user-attachments/assets/16dc4cc1-7266-44d8-a8d2-094b575273d5" />
+
+4. Build and Run
+<img width="911" height="132" alt="image" src="https://github.com/user-attachments/assets/0f61b810-6d63-4152-afcd-72cac02b6e28" />
+
+   
 
 ## Related Link
-
 - HatJoy I2C library code was largely leveraged from 
 https://github.com/m5stack/M5Hat-JoyC
 - [Document & Datasheet - M5Hat-JoyC](https://docs.m5stack.com/en/hat/hat-joyc)
 
-## License
-
-[M5Hat-JoyC - MIT](LICENSE)
+## Disclaimer
+Personal project - Use at your own risk. This code is provided as-is, without any warranty.
