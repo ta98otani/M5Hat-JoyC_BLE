@@ -15,12 +15,14 @@ Intention is to send data to a M5Stack based robot via BLE. (Bluetooth Low Energ
 - (It is best to use Add-on manager of MATLAB to install the addons)
 
 ## Procedure
-1. Open M5HatJoyC_BLE23b.xls
+1. Open M5HatJoyC_BLE24b.xls
 2. Change hardware settings (COM Ports appropriately)
 3. Build and Run
 
 ## Related Link
 
+- HatJoy I2C library code was largely leveraged from 
+https://github.com/m5stack/M5Hat-JoyC
 - [Document & Datasheet - M5Hat-JoyC](https://docs.m5stack.com/en/hat/hat-joyc)
 
 ## License
